@@ -267,3 +267,8 @@ class Game:
                 print("Компьютер выиграл!")
                 break
             num += 1
+    def start(self):
+        self.greet()
+        self.loop()
+g = Game()
+g.start()                  
